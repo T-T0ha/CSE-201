@@ -2,7 +2,7 @@
 int binarysearch(int *arr,int first,int last,int x)
 {   int mid;
     
-    if(arr[first]>arr[last]){
+    if(first>last){
     
     mid=(first+last)/2;
     }
